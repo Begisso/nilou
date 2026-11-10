@@ -20,8 +20,9 @@
 
 ## Get started
 
-1. Build `Nilou.exe` (see [Build from source](#build-from-source)), put it anywhere you like (a USB stick works
-   too) and run it.
+1. Download [`Nilou.exe`](Nilou.exe) from this repo (or build it yourself — see
+   [Build from source](#build-from-source)), put it anywhere you like (a USB stick works too) and run it.
+   The exe is not code-signed, so Windows SmartScreen may warn on first launch (*More info → Run anyway*).
 2. Paste a link with **Ctrl+V** or click **Add URL**.
 3. Optional: **Connect browser** (bottom-right of the window) walks you through loading the extension:
    open `edge://extensions` or `chrome://extensions`, switch on *Developer mode*, click *Load unpacked*, and pick the

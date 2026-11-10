@@ -1,6 +1,7 @@
 # Nilou — notes for Claude
 
-Portable Windows download manager: Python 3.12 + Tkinter, shipped as one PyInstaller exe (`dist\Nilou.exe`).
+Portable Windows download manager: Python 3.12 + Tkinter, shipped as one PyInstaller exe (`dist\Nilou.exe`;
+the current build is committed at the repo root as `Nilou.exe` — refresh it when releasing).
 Session history and the reasoning behind decisions: `docs/HISTORY.md`. Build/test/release workflow: the
 `nilou-dev` skill in `.claude/skills/nilou-dev/SKILL.md`.
 

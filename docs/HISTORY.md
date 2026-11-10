@@ -61,6 +61,13 @@ Interpreted as three files for future Claude sessions:
 - `CLAUDE.md` — project map, commands and gotchas.
 - `.claude/skills/nilou-dev/SKILL.md` — a skill for building, testing and releasing Nilou.
 
+## 7. "put exe in git too" (later session, same day)
+
+- The owner approved publishing the binary that step 4 held back: the 1.0.0 `Nilou.exe` (unsigned, ~18 MB) is now
+  committed at the repo root instead of being attached to a release. `dist/` stays ignored; on each release the new
+  build is copied over the root exe.
+- `.gitattributes` marks `*.exe` as binary. The README links the exe and mentions the SmartScreen warning.
+
 ## Verification done
 
 - 17 unit tests: multi-connection integrity (SHA-256), pause → save → restore → resume, servers without range

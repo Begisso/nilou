@@ -49,6 +49,6 @@ to the first instance and exit with code 0.
 ## Release
 
 1. Bump `VERSION` in `nilou/__init__.py`, `tools/version_info.txt` and `extension/manifest.json` together.
-2. Build, commit, tag `vX.Y.Z`, push.
-3. `gh release create vX.Y.Z dist/Nilou.exe --title "Nilou X.Y.Z" --notes "<what changed>"` — the exe goes on the
-   release, never into git.
+2. Build, smoke-test, then copy `dist\Nilou.exe` to the repo root — the owner wants the current exe committed
+   there (`Nilou.exe`, ~18 MB, unsigned). Commit it together with the version bump.
+3. Tag `vX.Y.Z`, push.
