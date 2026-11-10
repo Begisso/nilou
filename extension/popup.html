@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Nilou</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <img src="icons/icon48.png" alt="" width="32" height="32">
+    <div>
+      <h1>Nilou</h1>
+      <p id="status" class="status">Checking…</p>
+    </div>
+  </header>
+
+  <button id="video" class="primary" hidden>Download this video</button>
+  <button id="grab">Grab media from this page</button>
+  <p id="note" class="note"></p>
+
+  <label class="switch">
+    <input type="checkbox" id="enabled">
+    <span>Send browser downloads to Nilou</span>
+  </label>
+
+  <details>
+    <summary>Advanced</summary>
+    <label class="row">Port <input type="number" id="port" min="1024" max="65535"></label>
+    <label class="row">Skip files smaller than <input type="number" id="minSize" min="0" step="1"> KB</label>
+  </details>
+
+  <script src="shared.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
