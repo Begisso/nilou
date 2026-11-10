@@ -38,7 +38,8 @@ paraphrased in order; each is followed by what was done and why.
 ## 4. "and throw to git"
 
 - Initialized a repository, committed, and pushed to a **public** GitHub repo (`Begisso/nilou`, after a follow-up
-  "public git"); `Nilou.exe` is attached to the `v1.0.0` release rather than committed.
+  "public git"). `Nilou.exe` is not committed; it is built locally with `build.ps1`. Publishing it as a GitHub
+  release was held back for the owner to approve, since it puts an unsigned binary on a public page.
 - No git identity was configured, so the repo-local author is `Begisso` with the GitHub no-reply address.
 
 ## 5. "Include grab media from page, youtube downloader and twitter downloader, download webp as png"
